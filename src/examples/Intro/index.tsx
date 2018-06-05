@@ -74,7 +74,7 @@ export default class Intro extends React.Component <IProps, IState> {
                         Cooperative Multi-Threading
                     </PointItem>
                     <PointItem>
-                        For when setTimeout, requestAnimationFrame, requestIdleCallback is not enough
+                        For when setTimeout, setImmediate, requestAnimationFrame, requestIdleCallback are not enough
                     </PointItem>
                 </PointList>
             </TempWrapper>
