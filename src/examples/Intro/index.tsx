@@ -39,7 +39,7 @@ export default class Intro extends React.Component <IProps, IState> {
                     <StyledLink
                         target={'_blank'}
                         rel={'noopener'}
-                        href={'https://github.com/PendletonJones/webworker-lighting-talk'}>
+                        href={'https://github.com/PendletonJones/tsworkerapp-pub/tree/master'}>
                         Github: Presentation Repo
                     </StyledLink>
                 </LinkWrapper>

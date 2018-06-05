@@ -112,7 +112,7 @@ self.postMessage("send a message to the main thread");
                     <StyledLink
                         target={'_blank'}
                         rel={'noopener'}
-                        href={'https://github.com/PendletonJones/tsworkerapp'}>
+                        href={'https://github.com/PendletonJones/tsworkerapp-pub'}>
                         Github: Full Example
                     </StyledLink>
                 </LinkWrapper>

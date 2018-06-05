@@ -135,7 +135,7 @@ self.postMessage("send a message to the main thread");
                     <StyledLink
                         target={'_blank'}
                         rel={'noopener'}
-                        href={'https://github.com/PendletonJones/tsworkerapp/tree/message_channel'}>
+                        href={'https://github.com/PendletonJones/tsworkerapp-pub/tree/message_channel'}>
                         Github: Full Example with Channels
                     </StyledLink>
                 </LinkWrapper>
