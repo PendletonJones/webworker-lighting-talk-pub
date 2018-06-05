@@ -82,6 +82,15 @@ function wrapFunctionInWorker(func: Function){
                         75% USA
                     </StyledLink>
                 </LinkWrapper>
+                <CaveatList>
+                    <CaveatItem>
+                        Use ServiceWorker for running things when the tab is 
+                        closed, push, etc.
+                    </CaveatItem>
+                    <CaveatItem>
+                        Use WebWorker for offloading expensive computations
+                    </CaveatItem>
+                </CaveatList>                
                 <LinkWrapper>
                     <StyledLink
                         target={'_blank'}
@@ -92,7 +101,7 @@ function wrapFunctionInWorker(func: Function){
                 </LinkWrapper>
                 <CaveatList>
                     <CaveatItem>
-                        Support for SharedWorker and Broadcast Channel is Poort
+                        Support for SharedWorker and Broadcast Channel is poor
                     </CaveatItem>
                     <CaveatItem>
                         Use Transferables, copying things can get slow
