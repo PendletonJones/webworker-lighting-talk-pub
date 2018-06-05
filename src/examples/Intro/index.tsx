@@ -11,6 +11,20 @@ const TempWrapper = styled.div `
     ${props => props.theme.blue_border_styles}
 `;
 
+const PointList = styled.ul`
+    ${props => props.theme.blue_border_styles}
+
+`;
+
+
+const PointItem = styled.li`
+    ${props => props.theme.blue_border_styles}
+    font-size: 24px;
+    margin: 8px;
+`;
+
+
+
 interface IProps {
 
 }
@@ -55,6 +69,14 @@ export default class Intro extends React.Component <IProps, IState> {
                         alt={'multilane traffic'}
                         src={multilane} />
                 </SectionWrapper>
+                <PointList>
+                    <PointItem>
+                        Cooperative Multi-Threading
+                    </PointItem>
+                    <PointItem>
+                        For when setTimeout, requestAnimationFrame, requestIdleCallback is not enough
+                    </PointItem>
+                </PointList>
             </TempWrapper>
         );
     }

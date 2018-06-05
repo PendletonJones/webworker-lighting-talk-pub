@@ -112,6 +112,9 @@ function wrapFunctionInWorker(func: Function){
                         No DOM access, different navigator refernce, totally separate context
                     </CaveatItem>
                     <CaveatItem>
+                        Must Use IndexDB, Look at Dexie
+                    </CaveatItem>
+                    <CaveatItem>
                         Difficult to create on the fly, could be risky.
                     </CaveatItem>
                 </CaveatList>
