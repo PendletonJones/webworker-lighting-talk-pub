@@ -68,7 +68,7 @@ const ctx: Worker = self as any;
 
 self.onmessage = (event: MessageEvent) => {
     self.postMessage("reply to the main thread", event);
-    if(event.ports){
+    if(event.ports && event.ports[0]){
         // this is how we recieve a message from the other worker
     	event.ports[0].onmessage = () => {
     		console.log('message from the other side of the port');
